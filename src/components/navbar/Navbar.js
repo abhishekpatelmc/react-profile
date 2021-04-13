@@ -19,9 +19,9 @@ const Navbar = () => {
       </div>
       <div>
         {isOpen ? (
-          <Navbarlist cssList="nav-desktop" cssItems="nav-big" />
+          <Navbarlist cssItems="nav-desktop" />
         ) : (
-          <Navbarlist cssList="nav-list" cssItems="nav-items" />
+          <Navbarlist cssItems="nav-items" />
         )}
       </div>
     </div>

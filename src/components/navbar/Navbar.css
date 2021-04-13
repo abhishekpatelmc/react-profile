@@ -22,16 +22,24 @@
 .nav-list li {
   margin-bottom: 3%;
 }
-
-.nav-big {
+.nav-desktop {
   display: none;
 }
 @media screen and (min-width: 768px) {
   .nav-list {
     display: flex;
     color: black;
+    margin-top: initial;
   }
   .nav-icons {
     display: none;
+  }
+  .nav-desktop {
+    display: block;
+  }
+  .nav-items {
+    background-color: transparent;
+    bottom: initial;
+    right: initial;
   }
 }

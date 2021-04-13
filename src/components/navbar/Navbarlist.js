@@ -1,7 +1,7 @@
-const Navbarlist = ({ cssList, cssItems }) => {
+const Navbarlist = ({ cssItems }) => {
   return (
     <div className={cssItems}>
-      <ul className={cssList}>
+      <ul className="nav-list">
         <li>Home</li>
         <li>About</li>
         <li>Resume</li>
