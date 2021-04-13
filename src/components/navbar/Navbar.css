@@ -1,0 +1,37 @@
+.nav-icons {
+  float: right;
+  padding-top: 4%;
+  padding-right: 4%;
+}
+
+.nav-items {
+  background-color: teal;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 40%;
+}
+.nav-list {
+  list-style: none;
+  margin-top: 40%;
+  color: white;
+}
+
+.nav-list li {
+  margin-bottom: 3%;
+}
+
+.nav-big {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-list {
+    display: flex;
+    color: black;
+  }
+  .nav-icons {
+    display: none;
+  }
+}
